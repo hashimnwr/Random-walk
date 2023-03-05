@@ -1,5 +1,4 @@
-import turtle
-from turtle import Turtle, Screen
+from turtle import Turtle, Screen, colormode
 from random import choice, randint
 
 brush = Turtle()
@@ -9,7 +8,7 @@ brush.hideturtle()
 
 i = 0
 
-turtle.colormode(255)
+colormode(255)
 
 
 def change_color():
